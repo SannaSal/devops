@@ -12,4 +12,4 @@ jobs:
         uses: pozil/auto-assign-issue@v1.11.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          assignees: SannaSal
+          assignees: ${{ secrets.DEFAULT_ISSUE_ASSIGNEE }}
